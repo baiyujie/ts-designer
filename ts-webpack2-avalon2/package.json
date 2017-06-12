@@ -1,13 +1,13 @@
 {
-  "name": "avalon-webpack-start",
-  "version": "0.2.1",
-  "description": "webpack2脚手架，启用tree-shaking。",
+  "name": "ts-webpack2-avalon2",
+  "version": "1.0.0",
+  "description": "Webpack2+Avalon2脚手架",
   "author": {
-    "name": "Sayll",
-    "email": "kilol@qq.com",
-    "url": "https://github.com/sayll"
+    "name": "TS",
+    "email": "2488685651@qq.com",
+    "url": "https://github.com/baiyujie/ts-designer"
   },
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "npm run dll && npm run dev",
     "dev": "better-npm-run dev",
@@ -65,14 +65,14 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/sayll/avalon-webpack-start/issues",
-    "email": "kilol@qq.com"
+    "url": "https://github.com/baiyujie/ts-designer/issues",
+    "email": "2488685651@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sayll/avalon-webpack-start.git"
+    "url": "git+https://github.com/baiyujie/ts-designer.git"
   },
-  "homepage": "https://github.com/sayll/avalon-webpack-start#readme",
+  "homepage": "https://github.com/baiyujie/ts-designer/tree/master/ts-webpack2-avalon2#readme",
   "dependencies": {
     "avalon2": "^2.2.4"
   },
