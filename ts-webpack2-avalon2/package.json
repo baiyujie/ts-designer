@@ -23,7 +23,7 @@
     "cnpm": "npm install cnpm -g --registry=https://registry.npm.taobao.org",
     "installKarma": "npm install mocha chai karma karma-coverage karma-mocha karma-webpack karma-phantomjs-launcher phantomjs-prebuilt"
   },
-  "betterScripts": {
+  "betterScripts": { 
     "dev": {
       "command": "node ./server/main",
       "env": {
