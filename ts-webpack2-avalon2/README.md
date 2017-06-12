@@ -1,11 +1,5 @@
 # ts-webpack2-avalon2
-[![Coverage Status](https://travis-ci.org/baiyujie/ts-designer.svg?branch=master)](https://travis-ci.org/baiyujie/ts-designer)
-
-[![Coverage Status](https://codeclimate.com/github/baiyujie/ts-designer/badges/gpa.svg)](https://codeclimate.com/github/baiyujie/ts-designer)
-
-[![Coverage Status](https://coveralls.io/repos/github/baiyujie/ts-designer/badge.svg?branch=master)](https://coveralls.io/github/baiyujie/ts-designer)
-
-[![Coverage Status](https://coveralls.io/repos/github/baiyujie/ts-designer/badge.svg?branch=master)](https://coveralls.io/github/baiyujie/ts-designer?branch=master)
+[![Coverage Status](https://travis-ci.org/baiyujie/ts-designer.svg?branch=master)](https://travis-ci.org/baiyujie/ts-designer)[![Coverage Status](https://codeclimate.com/github/baiyujie/ts-designer/badges/gpa.svg)](https://codeclimate.com/github/baiyujie/ts-designer)[![Coverage Status](https://coveralls.io/repos/github/baiyujie/ts-designer/badge.svg?branch=master)](https://coveralls.io/github/baiyujie/ts-designer)
 
 ## 目录简介
 1. [介绍](#介绍)
