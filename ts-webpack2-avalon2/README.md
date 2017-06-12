@@ -1,14 +1,7 @@
-# avalon-webpack-start
-[![Coverage Status](https://travis-ci.org/sayll/avalon-webpack-start.svg?branch=master)](https://travis-ci.org/sayll/avalon-webpack-start)  [![Coverage Status](https://coveralls.io/repos/github/sayll/avalon-webpack-start/badge.svg)](https://coveralls.io/github/sayll/avalon-webpack-start) [![Coverage Status](https://codeclimate.com/github/sayll/avalon-webpack-start/badges/gpa.svg)](https://codeclimate.com/github/sayll/avalon-webpack-start)
-
-<b>Vue 用户请转至：[vue-start](https://github.com/sayll/vue-start)</b>
-
-<b>React 用户请转至：[react-webpack-start](https://github.com/sayll/react-webpack-start)</b>
-
-<b>低版本IE 用户请转至：[ie-webpack-start](https://github.com/sayll/ie-webpack-start)</b>
+# ts-webpack2-avalon2
 
 ## 目录简介
-1. [介绍](#介绍) 
+1. [介绍](#介绍)
 2. [程序目录](#程序目录)
 3. [项目启动](#项目启动)
     * [环境配置](#环境配置)
@@ -90,7 +83,7 @@
 ## 项目启动
 
 ### 环境配置
-* 为了把保证项目正常运行，请自行更新相关环境。 
+* 为了把保证项目正常运行，请自行更新相关环境。
 1. 安装[node.js](https://nodejs.org/)
 2. 安装[git](https://git-scm.com/)
 3. 安装[Yarn](https://yarnpkg.com/zh-Hans/)（可选）
@@ -154,17 +147,17 @@ $ npm run cnpm
 3. <a name='配置资源文件'>配置JS,CSS资源文件</a>，文件地址：[`app/view`](/app/view)
 
     一. 创建html文件`app/html/demo.html`时，配置view中的资源文件：
-    
+
     * `app/view/demo/demo.js`
     * `app/view/demo/demo.css`
-    
+
     二. 创建html文件`app/html/test/index.html`时，配置view中的资源文件：
-    
+
     * `app/view/test/index/index.js`
     * `app/view/test/index/index.css`
-    
+
     三. 创建单页应用`app/html/index.html`时，配置view中的资源文件：
-    
+
     * `app/view/index/index.js`
     * `app/view/index/index.css`
     * 在`app/view/index`中管理其他资源文件，通过唯一的文件入口`index.js`来引入其他资源文件
@@ -176,14 +169,14 @@ $ npm run cnpm
   ```bash
   $ npm install avalon2
   ```
-  
+
   * 配置Dll文件，地址：[`config/webpack/webpack.dll.js`](/config/webpack/webpack.dll.js)
   ```js
   const vendors    = [
     'avalon2'
   ];
   ```
-  
+
   * 配置全局调用变量，地址：[`app/static/index.js`](/app/static/index.js)
   ```js
   // 由于avalon2内部自己解决绑定window对象，所以无需其他处理，直接引入即可。
@@ -196,31 +189,31 @@ $ npm run cnpm
 
   * 构建自己的icon文件
     * 构建自己的Icon文件：[http://www.iconfont.cn/](http://www.iconfont.cn/)
-  
+
   * 替换文件地址：[app/source/font/icon](/app/source/font/icon)
     * 直接将构建好的文件，替换原先旧文件即可
 3. <a name='使用CSS预处理器'>使用**CSS预处理器**、**CDN**或开启多文件路口**main.js**</a>
   * 修改配置文件
   文件地址：[config/webpack/base/base.js](/config/webpack/base/base.js)
     * CSS预处理器修改项： `cssType`
-    
+
       * 使用`less`下载依赖
         ```bash
         $ npm install less-loader less        # npm用户
         $ cnpm install less-loader less       # cnpm用户
         $ yarn add less-loader less           # yarn用户
         ```
-        
+
       * 使用`sass|scss`下载依赖
         ```bash
         $ npm install sass-loader node-sass       # npm用户(由于墙的原因会有很大一部分人会失败，推荐使用cnpm)
         $ cnpm install sass-loader node-sass      # cnpm用户
         $ yarn install sass-loader node-sass      # yarn用户
         ```
-        
+
       * 样式文件后缀需要与`cssType`对应;
          * 如使用`less`，请将`app`内部所有的样式文件后缀修改为`.less`
-        
+
     * CDN修改项： `cdnPath`
     * main.js修改项: `mainJS`  
       * 文件地址：[app/source/js/main.js](/app/source/font/icon)
@@ -234,7 +227,7 @@ $ npm run cnpm
       cdnPath : './', // 资源指向位置,可寄放CDN
     };
     ```
-    
+
 4. <a name='修改目录结构'>修改目录结构</a>
   * 文件地址: [`config/webpack/base/files.js`](/config/webpack/base/files.js)
     *  此文件使webpack正确索引资源文件，如需调整资源目录，请使目录资源与`files.js`中的配置一一对应。
@@ -269,4 +262,3 @@ $ npm run deploy
 * 亲不要吝啬自己的**Star**，右上角**Star**一下呗。
 
 <a href="https://segmentfault.com/a/1190000008249713"><img src='https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=405cc666d543ad4ba67b4ec6b2327697/d058ccbf6c81800a80b7b2cdb53533fa838b47a6.jpg' height='160'></a>
-
