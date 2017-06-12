@@ -1,5 +1,5 @@
 # ts-webpack2-avalon2
-
+[![Coverage Status](https://travis-ci.org/baiyujie/ts-designer.svg?branch=master)](https://travis-ci.org/sayll/Sayll_Karma)
 ## 目录简介
 1. [介绍](#介绍)
 2. [程序目录](#程序目录)
